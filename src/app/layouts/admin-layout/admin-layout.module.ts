@@ -18,6 +18,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatSelectModule} from '@angular/material/select';
 import { AdicionarMedicoComponent } from 'app/adicionar-medico/adicionar-medico.component';
+import { AdicionarPacienteComponent } from 'app/adicionar-paciente/adicionar-paciente.component';
 
 @NgModule({
   imports: [
@@ -42,6 +43,7 @@ import { AdicionarMedicoComponent } from 'app/adicionar-medico/adicionar-medico.
     NotificationsComponent,
     UpgradeComponent,
     AdicionarMedicoComponent,
+    AdicionarPacienteComponent,
   ]
 })
 

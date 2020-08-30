@@ -23,6 +23,7 @@ import {
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { AdicionarMedicoComponent } from './adicionar-medico/adicionar-medico.component';
+import { AdicionarPacienteComponent } from './adicionar-paciente/adicionar-paciente.component';
 
 @NgModule({
   imports: [
@@ -41,6 +42,7 @@ import { AdicionarMedicoComponent } from './adicionar-medico/adicionar-medico.co
     AppComponent,
     AdminLayoutComponent,
     AdicionarMedicoComponent,
+    AdicionarPacienteComponent,
 
   ],
   providers: [],

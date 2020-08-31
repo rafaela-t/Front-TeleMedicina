@@ -24,6 +24,7 @@ import {
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { AdicionarMedicoComponent } from './adicionar-medico/adicionar-medico.component';
 import { AdicionarPacienteComponent } from './adicionar-paciente/adicionar-paciente.component';
+import { AdicionarConsultaComponent } from './adicionar-consulta/adicionar-consulta.component';
 
 @NgModule({
   imports: [
@@ -43,6 +44,7 @@ import { AdicionarPacienteComponent } from './adicionar-paciente/adicionar-pacie
     AdminLayoutComponent,
     AdicionarMedicoComponent,
     AdicionarPacienteComponent,
+    AdicionarConsultaComponent,
 
   ],
   providers: [],

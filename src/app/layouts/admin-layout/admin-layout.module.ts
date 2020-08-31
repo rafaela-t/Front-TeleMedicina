@@ -19,6 +19,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatSelectModule} from '@angular/material/select';
 import { AdicionarMedicoComponent } from 'app/adicionar-medico/adicionar-medico.component';
 import { AdicionarPacienteComponent } from 'app/adicionar-paciente/adicionar-paciente.component';
+import { AdicionarConsultaComponent } from 'app/adicionar-consulta/adicionar-consulta.component';
 
 @NgModule({
   imports: [
@@ -44,6 +45,7 @@ import { AdicionarPacienteComponent } from 'app/adicionar-paciente/adicionar-pac
     UpgradeComponent,
     AdicionarMedicoComponent,
     AdicionarPacienteComponent,
+    AdicionarConsultaComponent,
   ]
 })
 

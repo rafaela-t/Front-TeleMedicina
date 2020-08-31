@@ -10,6 +10,7 @@ import { NotificationsComponent } from '../../notifications/notifications.compon
 import { UpgradeComponent } from '../../upgrade/upgrade.component';
 import { AdicionarMedicoComponent } from 'app/adicionar-medico/adicionar-medico.component';
 import { AdicionarPacienteComponent } from 'app/adicionar-paciente/adicionar-paciente.component';
+import { AdicionarConsultaComponent } from 'app/adicionar-consulta/adicionar-consulta.component';
 
 export const AdminLayoutRoutes: Routes = [
     // {
@@ -63,5 +64,6 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'notifications',  component: NotificationsComponent },
     { path: 'upgrade',        component: UpgradeComponent },
     {path: 'adicionar-medico', component: AdicionarMedicoComponent},
-    {path: 'adicionar-paciente', component: AdicionarPacienteComponent}
+    {path: 'adicionar-paciente', component: AdicionarPacienteComponent},
+    {path: 'adicionar-consulta', component: AdicionarConsultaComponent},
 ];

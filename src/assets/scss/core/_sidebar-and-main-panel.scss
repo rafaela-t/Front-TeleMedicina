@@ -304,22 +304,22 @@
     }
 
     &[data-color="purple"]{
-        @include set-background-color-button($brand-primary);
+        @include set-background-color-button(#18ce0f);
     }
     &[data-color="azure"]{
-        @include set-background-color-button($brand-info);
+        @include set-background-color-button(#18ce0f);
     }
     &[data-color="green"]{
-        @include set-background-color-button($brand-success);
+        @include set-background-color-button(#18ce0f);
     }
     &[data-color="orange"]{
-        @include set-background-color-button($brand-warning);
+        @include set-background-color-button(#18ce0f);
     }
     &[data-color="danger"]{
-        @include set-background-color-button($brand-danger);
+        @include set-background-color-button(#4caf50);
     }
     &[data-color="rose"]{
-        @include set-background-color-button($brand-rose);
+        @include set-background-color-button(#18ce0f);
     }
 
     &[data-color="white"]{

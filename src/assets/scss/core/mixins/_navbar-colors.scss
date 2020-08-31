@@ -1,18 +1,18 @@
 @mixin navbar-colors($color, $link-color) {
-    color: $link-color;
-    background-color: $color !important;
-    @include shadow-navbar-color($color);
+    color: #4caf50;
+    background-color: #4caf50 !important;
+    @include shadow-navbar-color(#4caf50);
 
     .dropdown-item:hover,
     .dropdown-item:focus{
-      @include shadow-small-color($color);
-      background-color: $color;
-      color: $link-color;
+      @include shadow-small-color(#4caf50);
+      background-color: #4caf50;
+      color: #4caf50;
     }
 
     .navbar-toggler{
         .navbar-toggler-icon{
-            background-color: $link-color;
+            background-color: #4caf50;
         }
     }
 }

@@ -20,9 +20,12 @@ import {MatSelectModule} from '@angular/material/select';
 import { AdicionarMedicoComponent } from 'app/adicionar-medico/adicionar-medico.component';
 import { AdicionarPacienteComponent } from 'app/adicionar-paciente/adicionar-paciente.component';
 import { AdicionarConsultaComponent } from 'app/adicionar-consulta/adicionar-consulta.component';
+import { FullCalendarModule } from '@fullcalendar/angular'; // the main connector. must go first
+
 
 @NgModule({
   imports: [
+    FullCalendarModule,
     CommonModule,
     RouterModule.forChild(AdminLayoutRoutes),
     FormsModule,
